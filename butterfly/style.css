@@ -7,6 +7,7 @@ html, body {
   }
   
   .cartoon {
+    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -38,6 +39,7 @@ html, body {
   
   /****/
   .cartoon {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     --body: rgb(0, 0, 0);
   }
   
@@ -106,6 +108,7 @@ html, body {
   }
   
   .wing-top {
+    
     top: 5%;
     width: 50%;
     height: 45%;
@@ -117,7 +120,7 @@ html, body {
     box-shadow: 
       inset 3.5vmin 1.5vmin 0 1vmin,
       inset -0.5vmin 0 0 1vmin;
-    animation: wingTopFlap1 2s linear infinite;
+    animation: wingTopFlap1 1s linear infinite;
     overflow: hidden;
   }
   
@@ -143,7 +146,7 @@ html, body {
   .wing-top ~ .wing-top {
     left: 0;
     transform: scaleX(-1) rotate(-12deg);
-    animation: wingTopFlap2 2s linear infinite;
+    animation: wingTopFlap2 1s linear infinite;
   }
   
   .dots {
@@ -181,7 +184,7 @@ html, body {
     top: 59%;
     left: 27.5%;
     box-shadow: inset 1vmin -2vmin 0 0.5vmin;
-    animation: wingBottomFlap1 2s linear infinite;
+    animation: wingBottomFlap1 1s linear infinite;
     overflow: hidden;
   }
   
@@ -189,7 +192,7 @@ html, body {
     transform: scaleX(-1) rotate(55deg);
     left: auto;
     right: 55.5%;
-    animation: wingBottomFlap2 2s linear infinite;
+    animation: wingBottomFlap2 1s linear infinite;
   }
   
   .wing-bottom::before {
