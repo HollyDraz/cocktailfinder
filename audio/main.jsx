@@ -1,5 +1,8 @@
 //javascript page for audio project
+var newSound = null;
 
+// here is my new audio context:
+var context = new AudioContext();
 var context;
 window.addEventListener('load', init, false);
 function init() {
@@ -10,3 +13,4 @@ function init() {
     alert('Web Audio API is not supported in this browser');
     }
 }
+
