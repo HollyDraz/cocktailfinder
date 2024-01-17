@@ -14,10 +14,15 @@
     padding: 50px;
     margin: 20px;
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
 #media_visuals{
+    
     width: 30px;
     height: 30px;
     background-color: black;
@@ -28,5 +33,9 @@
 }
 
 #now_playing{
+    width: 100%; /* Set the width to 100% to make it a horizontal bar */
+    height: 20px; /* Adjust the height according to your design */
+    background-color: #3498db; /* Choose your desired background color */
+    margin-bottom: 10px;
 
 }
