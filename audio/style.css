@@ -39,3 +39,20 @@
     margin-bottom: 10px;
 
 }
+#now_playing p {
+    position: absolute;
+    top: 15%; /* Adjust the vertical position */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center text precisely */
+    color: #fff; /* Set text color */
+}
+
+
+
+
+#media_controls{
+    width: 100%; /* Set the width to 100% to make it a horizontal bar */
+    height: 20px; /* Adjust the height according to your design */
+    background-color: #c834db; /* Choose your desired background color */
+    margin-bottom: 10px;
+}
