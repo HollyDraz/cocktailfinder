@@ -1,0 +1,1 @@
+let beat = new Audio('audio.mp3');
