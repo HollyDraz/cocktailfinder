@@ -1,60 +1,44 @@
-#main{
+#main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     background-color: aqua;
-    width: 100%;
-    height: 90%;
+    width: 90%; /* Adjusted width */
     border: 15px solid green;
     padding: 50px;
     margin: 20px;
     position: fixed;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
-
-#player_window{
-
-}
-
-
-#media_visuals{
-    
+#media_visuals {
     width: 30px;
     height: 30px;
     background-color: black;
     border: 15px solid rgb(128, 28, 0);
-    padding: 50px;
+    padding: 20px; /* Adjusted padding */
     margin: 20px;
-  
 }
 
-#now_playing{
-    width: 100%; /* Set the width to 100% to make it a horizontal bar */
-    height: 20px; /* Adjust the height according to your design */
-    background-color: #3498db; /* Choose your desired background color */
+#now_playing {
+    width: 90%; /* Adjusted width */
+    height: 20px;
+    background-color: #3498db;
     margin-bottom: 10px;
-
 }
+
 #now_playing p {
     position: absolute;
-    top: 15%; /* Adjust the vertical position */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Center text precisely */
-    color: #fff; /* Set text color */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
 }
 
-
-
-
-#media_controls{
-    width: 100%; /* Set the width to 100% to make it a horizontal bar */
-    height: 20px; /* Adjust the height according to your design */
-    background-color: #c834db; /* Choose your desired background color */
+#media_controls {
+    width: 90%; /* Adjusted width */
+    height: 20px;
+    background-color: #c834db;
     margin-bottom: 10px;
 }
