@@ -12,7 +12,9 @@ document.body.innerHTML = '<div id="app"></div>';
 const root = createRoot(document.getElementById('app'));
 root.render(<h1>Hello, world</h1>);
 
-
+function Main(){
+    
+}
 
 //import the audio from the file 
 // let beat = new Audio('audio.mp3');
