@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.cocktail {
+    margin-bottom: 20px;
+}
+
+.cocktail img {
+    width: 100%;
+    max-width: 300px;
+}
