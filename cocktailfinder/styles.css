@@ -28,6 +28,7 @@ input, button {
 
 .cocktail {
     margin-bottom: 20px;
+    border-bottom: 2px solid #b9e192;
 }
 
 .cocktail img {
@@ -35,4 +36,8 @@ input, button {
     padding: 0px;
     width: 200px;
     box-shadow: 0 0 10px white;
+}
+.cocktail ul {
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 0; /* Remove left padding */
 }
